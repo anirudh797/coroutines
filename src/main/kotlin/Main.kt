@@ -4,9 +4,9 @@ import kotlinx.coroutines.launch
 
 fun main(args: Array<String>) {
 GlobalScope.launch {
-    delay(1000)
+    delay(2000)
     println("World !")
 }
     print("Hello ")
-    Thread.sleep(2000)
+    Thread.sleep(3000)
 }
